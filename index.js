@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const envPath = path.join(__dirname, ".env");
+const envPath = path.join(process.cwd(), ".env");
 
 function config(path = envPath) {
     const envString = fs.readFileSync(path).toString();
