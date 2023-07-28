@@ -1,0 +1,30 @@
+{
+    "name": "@atlc/notenv",
+    "version": "1.0.0",
+    "description": "Replicating the dotenv node module with no external dependencies",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon",
+        "start": "node config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/atlc/notenv.git"
+    },
+    "keywords": [
+        "env",
+        "secret",
+        "credentials",
+        "dotenv"
+    ],
+    "author": "https://github.com/atlc",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/atlc/notenv/issues"
+    },
+    "homepage": "https://github.com/atlc/notenv#readme",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
