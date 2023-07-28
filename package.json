@@ -1,6 +1,6 @@
 {
     "name": "@atlc/notenv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Replicating the dotenv node module with no external dependencies",
     "main": "index.js",
     "scripts": {
