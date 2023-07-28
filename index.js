@@ -17,7 +17,6 @@ function config(path = envPath) {
 
     Object.assign(process.env, { ...process.env, ...temp });
 }
-config();
 
 module.exports = {
     config,
